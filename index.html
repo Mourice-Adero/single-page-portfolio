@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adero - My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      section {
+        padding: 40px;
+        text-align: center;
+      }
+
+      .projects {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .project {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: transform 0.3s;
+      }
+
+      .project:hover {
+        transform: scale(1.05);
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      .social-icons {
+        margin-top: 20px;
+      }
+
+      .social-icons a {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mourice Adero</h1>
+      <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a web developer who recently graduated. I studied Bsc Computer
+        Science and graduated with a second class honours degree. I am a great
+        team builder and always available for consaltation on IT based problems.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/pile-of-books-with-pages-open-by-wind-royalty-free-image-1600785994.jpg?crop=0.79555xw:1xh;center,top&resize=2048:*"
+            alt="Library Website"
+            height="200"
+          />
+          <h3>Library Website</h3>
+          <p>
+            I have built a library management website that helps institutions
+            manage borowing and keeping library records.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="https://s26162.pcdn.co/wp-content/uploads/sites/2/2022/05/Best-Reviewed-Books.jpeg"
+            alt="Online Books Website"
+            height="200"
+            width="300"
+          />
+          <h3>Online Books Website</h3>
+          <p>
+            This is a website that provides books for users who find it hard to
+            serch for books online. Users are able to request books directly
+            from the system administrators or download available books for free.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="https://kinsta.com/wp-content/uploads/2023/01/laravel-10-1024x512.png"
+            alt="Project 3"
+            height="200"
+            width="300"
+          />
+          <h3>Laravel Project</h3>
+          <p>
+            I build laravel rpojects for dynamic websites like store management
+            systems and school websites
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can contact me through my social media handles below</p>
+
+      <div class="social-icons">
+        <a
+          href="#"
+          target="_blank"
+          title="Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="#"
+          target="_blank"
+          title="WhatsApp"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a
+          href="#"
+          target="_blank"
+          title="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="#"
+          target="_blank"
+          title="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Mourice Adero. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
